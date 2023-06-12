@@ -1,0 +1,40 @@
+ul{
+    list-style-type: none;
+    background-color: #ffffff;
+    overflow: hidden
+;
+}
+li{
+    float: left;
+}
+li a{
+    padding: 10px;
+    display: block;
+    color: rgba(59, 65, 73, 0.65);
+    font-size: large;
+}
+li a:hover{
+    background-color: rgba(86, 99, 107, 0.5);
+}
+.container-fluid{
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px #030103;
+}
+.my-3{
+    margin-top: inherit;
+    margin-bottom: inherit;
+}
+
+.row text-center{
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding: 5px;
+    text-align: center;
+    font-family: poppins sans-serif;
+}
+.carousel{
+    padding: 5px;
+}
